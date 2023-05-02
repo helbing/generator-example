@@ -9,7 +9,7 @@ pnpm run build
 npm link
 npx yo --generators
 npx yo example
-npm unlink
+npm uninstall --global generator-example
 ```
 
 You can also test with unit-tests.
