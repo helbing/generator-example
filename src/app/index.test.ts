@@ -11,7 +11,7 @@ import Generator, { GeneratorOptions, IAnswers } from "./index"
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
-describe("Test generate", () => {
+describe("Test generator", () => {
   let runResult: RunResult<Generator>
   const name = "helloworld"
 
