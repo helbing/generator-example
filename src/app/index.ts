@@ -27,7 +27,7 @@ export default class extends Generator<GeneratorOptions> {
   constructor(args: string | string[], options: GeneratorOptions) {
     super(args, options)
 
-    this.desc("Generate a example.")
+    this.desc("This is an example generator.")
   }
 
   async prompting() {
