@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json.schemastore.org/eslintrc.json",
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "plugin:vitest/recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript"
+  ],
+  "globals": {
+    "JSX": true
+  },
+  "rules": {
+    "sort-imports": ["error", {
+        "ignoreDeclarationSort": true
+      }
+    ],
+    "import/order": ["error", {
+      "groups": [
+        "builtin",
+        "external",
+        [
+          "internal",
+          "parent",
+          "sibling",
+          "index",
+          "object"
+        ],
+        "type"
+      ],
+      "distinctGroup": true,
+      "newlines-between": "always",
+      "warnOnUnassignedImports": true,
+      "alphabetize": {
+        "order": "asc",
+        "caseInsensitive": false
+      }
+    }]
+  },
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true
+      }
+    }
+  }
+}

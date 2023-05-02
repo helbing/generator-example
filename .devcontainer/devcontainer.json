@@ -1,0 +1,17 @@
+{
+  "name": "DevContainer",
+  "build": {
+    "context": ".",
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "configureZshAsDefaultShell": true
+    }
+  },
+  "postCreateCommand": "sh /usr/local/install.sh",
+  "remoteUser": "node",
+  "mounts": [
+    "source=${localEnv:HOME}/.aws,target=/home/node/.aws,type=bind,consistency=cached"
+  ]
+}
