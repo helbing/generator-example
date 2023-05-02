@@ -17,3 +17,8 @@ You can also test with unit-tests.
 ```shell
 pnpm run test
 ```
+
+You can learn:
+
+- how to write yeoman generator in [index.ts](./src/app/index.ts).
+- how to write unit-tests of generator in [index.test.ts](./src/app/index.test.ts).
