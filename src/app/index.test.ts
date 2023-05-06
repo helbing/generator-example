@@ -7,7 +7,7 @@ import { afterAll, beforeAll, describe, test } from "vitest"
 import assert from "yeoman-assert"
 import helpers, { RunResult } from "yeoman-test"
 
-import { GeneratorOptions, IAnswers } from "./index"
+import { GeneratorOptions, IAnswers } from "."
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
@@ -18,12 +18,8 @@ describe("Test generator", () => {
   beforeAll(async () => {
     runResult = await helpers
       .create(path.join(__dirname, "../../generators/app"))
-      .withOptions({
-        isTesting: true,
-      } as GeneratorOptions)
-      .withAnswers({
-        name: name,
-      } as IAnswers)
+      .withOptions({ isTesting: true } as GeneratorOptions)
+      .withAnswers({ name: name } as IAnswers)
   })
 
   afterAll(() => {
