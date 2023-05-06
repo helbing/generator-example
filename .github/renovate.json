@@ -4,8 +4,7 @@
     "config:base",
     ":dependencyDashboard",
     ":assignAndReview(helbing)",
-    ":automergePatch",
-    ":automergeMinor",
+    ":automergeMajor",
     ":labels(dependencies)"
   ]
 }
