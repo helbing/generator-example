@@ -23,7 +23,7 @@ export type GeneratorOptions = BaseGeneratorOptions & {
   isTesting: boolean
 }
 
-export default class extends Generator {
+export default class extends Generator<GeneratorOptions> {
   constructor(args: string | string[], options: GeneratorOptions) {
     super(args, options)
 
