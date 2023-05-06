@@ -5,7 +5,7 @@
     ":dependencyDashboard",
     ":assignAndReview(helbing)",
     ":automergeMajor",
-    ":prImmediately",
+    ":prNotPending",
     ":labels(dependencies)"
   ]
 }
