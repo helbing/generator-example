@@ -6,11 +6,6 @@
     ":assignAndReview(helbing)",
     ":automergePatch",
     ":automergeMinor",
-    ":labels(dependencies)",
-    ":prHourlyLimit4"
-  ],
-  "automergeSchedule": [
-    "after 10am",
-    "before 6pm"
+    ":labels(dependencies)"
   ]
 }
