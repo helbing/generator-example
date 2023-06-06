@@ -55,7 +55,7 @@
     "prettier": "^2.8.8",
     "rimraf": "^5.0.0",
     "typescript": "^5.0.4",
-    "vitest": "^0.31.0",
+    "vitest": "^0.32.0",
     "yeoman-assert": "^3.1.1",
     "yeoman-environment": "^3.15.1",
     "yeoman-test": "^7.4.0"
