@@ -33,7 +33,7 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^5.2.0",
-    "yeoman-generator": "^6.0.0"
+    "yeoman-generator": "^7.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.0.0",
