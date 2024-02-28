@@ -10,7 +10,7 @@ dependencies:
     version: 5.2.0
   yeoman-generator:
     specifier: ^7.0.0
-    version: 7.0.0(@yeoman/types@1.1.2)(mem-fs@4.0.0)(yeoman-environment@4.0.0)
+    version: 7.0.0(@yeoman/types@1.1.2)(mem-fs@4.1.0)(yeoman-environment@4.0.0)
 
 devDependencies:
   '@commitlint/cli':
@@ -54,7 +54,7 @@ devDependencies:
     version: 5.0.0(eslint-config-prettier@9.0.0)(eslint@8.39.0)(prettier@3.0.0)
   eslint-plugin-vitest:
     specifier: ^0.3.0
-    version: 0.3.0(@typescript-eslint/eslint-plugin@7.0.1)(eslint@8.39.0)(vitest@1.0.0)
+    version: 0.3.22(@typescript-eslint/eslint-plugin@7.0.1)(eslint@8.39.0)(typescript@5.0.4)(vitest@1.0.0)
   husky:
     specifier: ^9.0.0
     version: 9.0.1
@@ -78,7 +78,7 @@ devDependencies:
     version: 3.1.1
   yeoman-environment:
     specifier: ^4.0.0
-    version: 4.0.0(@yeoman/types@1.1.2)(mem-fs@4.0.0)
+    version: 4.0.0(@yeoman/types@1.1.2)(mem-fs@4.1.0)
   yeoman-test:
     specifier: ^8.0.0
     version: 8.0.0(@yeoman/types@1.1.2)(yeoman-environment@4.0.0)(yeoman-generator@7.0.0)
@@ -600,7 +600,7 @@ packages:
       agent-base: 7.1.0
       http-proxy-agent: 7.0.0
       https-proxy-agent: 7.0.2
-      lru-cache: 10.0.1
+      lru-cache: 10.2.0
       socks-proxy-agent: 8.0.2
     transitivePeerDependencies:
       - supports-color
@@ -658,7 +658,7 @@ packages:
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
       '@npmcli/promise-spawn': 7.0.0
-      lru-cache: 10.0.1
+      lru-cache: 10.2.0
       npm-pick-manifest: 9.0.0
       proc-log: 3.0.0
       promise-inflight: 1.0.1
@@ -1158,6 +1158,9 @@ packages:
   /@types/node@16.18.83:
     resolution: {integrity: sha512-TmBqzDY/GeCEmLob/31SunOQnqYE3ZiiuEh1U9o3HqE1E2cqKZQA5RQg4krEguCY3StnkXyDmCny75qyFLx/rA==}
 
+  /@types/node@16.18.84:
+    resolution: {integrity: sha512-mtn6ixzrUK5IMf6gyyMVUsm0TIeF3IYpUr3i0HHTuPJVbdZ6kc93poZ+wCkFNtxXoP/tyGrdVPOL6/WqGXjfXw==}
+
   /@types/node@18.18.6:
     resolution: {integrity: sha512-wf3Vz+jCmOQ2HV1YUJuCWdL64adYxumkrxtc+H1VUQlnQI04+5HtH+qZCOE21lBE7gIrt+CwX2Wv8Acrw5Ak6w==}
 
@@ -1171,11 +1174,20 @@ packages:
     dependencies:
       undici-types: 5.26.5
 
+  /@types/node@20.11.21:
+    resolution: {integrity: sha512-/ySDLGscFPNasfqStUuWWPfL78jompfIoVzLJPVVAHBh6rpG68+pI2Gk+fNLeI8/f1yPYL4s46EleVIc20F1Ow==}
+    dependencies:
+      undici-types: 5.26.5
+
   /@types/normalize-package-data@2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
 
   /@types/semver@7.5.1:
     resolution: {integrity: sha512-cJRQXpObxfNKkFAZbJl2yjWtJCqELQIdShsogr1d2MilP8dKD9TE/nEKHkJgUNHdGKCQaf9HbIynuV2csLGVLg==}
+    dev: true
+
+  /@types/semver@7.5.8:
+    resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
     dev: true
 
   /@types/text-table@0.2.5:
@@ -1292,12 +1304,12 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/scope-manager@6.5.0:
-    resolution: {integrity: sha512-A8hZ7OlxURricpycp5kdPTH3XnjG85UpJS6Fn4VzeoH4T388gQJ/PGP4ole5NfKt4WDVhmLaQ/dBLNDC4Xl/Kw==}
+  /@typescript-eslint/scope-manager@6.21.0:
+    resolution: {integrity: sha512-OwLUIWZJry80O99zvqXVEioyniJMa+d2GrqpUTqi5/v5D5rOrppJVBPa0yKCblcigC0/aYAzxxqQ1B+DS2RYsg==}
     engines: {node: ^16.0.0 || >=18.0.0}
     dependencies:
-      '@typescript-eslint/types': 6.5.0
-      '@typescript-eslint/visitor-keys': 6.5.0
+      '@typescript-eslint/types': 6.21.0
+      '@typescript-eslint/visitor-keys': 6.21.0
     dev: true
 
   /@typescript-eslint/scope-manager@7.0.1:
@@ -1328,8 +1340,8 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/types@6.5.0:
-    resolution: {integrity: sha512-eqLLOEF5/lU8jW3Bw+8auf4lZSbbljHR2saKnYqON12G/WsJrGeeDHWuQePoEf9ro22+JkbPfWQwKEC5WwLQ3w==}
+  /@typescript-eslint/types@6.21.0:
+    resolution: {integrity: sha512-1kFmZ1rOm5epu9NZEZm1kckCDGj5UJEf7P1kliH4LKu/RkwpsfqqGmY2OOcUs18lSlQBKLDYBOGxRVtrMN5lpg==}
     engines: {node: ^16.0.0 || >=18.0.0}
     dev: true
 
@@ -1338,8 +1350,8 @@ packages:
     engines: {node: ^16.0.0 || >=18.0.0}
     dev: true
 
-  /@typescript-eslint/typescript-estree@6.5.0(typescript@5.2.2):
-    resolution: {integrity: sha512-q0rGwSe9e5Kk/XzliB9h2LBc9tmXX25G0833r7kffbl5437FPWb2tbpIV9wAATebC/018pGa9fwPDuvGN+LxWQ==}
+  /@typescript-eslint/typescript-estree@6.21.0(typescript@5.0.4):
+    resolution: {integrity: sha512-6npJTkZcO+y2/kr+z0hc4HwNfrrP4kNYh57ek7yCNlrBjWQ1Y0OS7jiZTkgumrvkX5HkEKXFZkkdFNkaW2wmUQ==}
     engines: {node: ^16.0.0 || >=18.0.0}
     peerDependencies:
       typescript: '*'
@@ -1347,14 +1359,15 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/types': 6.5.0
-      '@typescript-eslint/visitor-keys': 6.5.0
+      '@typescript-eslint/types': 6.21.0
+      '@typescript-eslint/visitor-keys': 6.21.0
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.5.4
-      ts-api-utils: 1.0.1(typescript@5.2.2)
-      typescript: 5.2.2
+      minimatch: 9.0.3
+      semver: 7.6.0
+      ts-api-utils: 1.2.1(typescript@5.0.4)
+      typescript: 5.0.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1381,20 +1394,20 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/utils@6.5.0(eslint@8.39.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-9nqtjkNykFzeVtt9Pj6lyR9WEdd8npPhhIPM992FWVkZuS6tmxHfGVnlUcjpUP2hv8r4w35nT33mlxd+Be1ACQ==}
+  /@typescript-eslint/utils@6.21.0(eslint@8.39.0)(typescript@5.0.4):
+    resolution: {integrity: sha512-NfWVaC8HP9T8cbKQxHcsJBY5YE1O33+jpMwN45qzWWaPDZgLIbo12toGMWnmhvCpd3sIxkpDw3Wv1B3dYrbDQQ==}
     engines: {node: ^16.0.0 || >=18.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.39.0)
-      '@types/json-schema': 7.0.12
-      '@types/semver': 7.5.1
-      '@typescript-eslint/scope-manager': 6.5.0
-      '@typescript-eslint/types': 6.5.0
-      '@typescript-eslint/typescript-estree': 6.5.0(typescript@5.2.2)
+      '@types/json-schema': 7.0.15
+      '@types/semver': 7.5.8
+      '@typescript-eslint/scope-manager': 6.21.0
+      '@typescript-eslint/types': 6.21.0
+      '@typescript-eslint/typescript-estree': 6.21.0(typescript@5.0.4)
       eslint: 8.39.0
-      semver: 7.5.4
+      semver: 7.6.0
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -1419,12 +1432,12 @@ packages:
       - typescript
     dev: true
 
-  /@typescript-eslint/visitor-keys@6.5.0:
-    resolution: {integrity: sha512-yCB/2wkbv3hPsh02ZS8dFQnij9VVQXJMN/gbQsaaY+zxALkZnxa/wagvLEFsAWMPv7d7lxQmNsIzGU1w/T/WyA==}
+  /@typescript-eslint/visitor-keys@6.21.0:
+    resolution: {integrity: sha512-JJtkDduxLi9bivAB+cYOVMtbkqdPOhZ+ZI5LC47MIRrDV4Yn2o+ZnW10Nkmr28xRpSpdJ6Sm42Hjf2+REYXm0A==}
     engines: {node: ^16.0.0 || >=18.0.0}
     dependencies:
-      '@typescript-eslint/types': 6.5.0
-      eslint-visitor-keys: 3.4.1
+      '@typescript-eslint/types': 6.21.0
+      eslint-visitor-keys: 3.4.3
     dev: true
 
   /@typescript-eslint/visitor-keys@7.0.1:
@@ -1480,7 +1493,7 @@ packages:
       '@yeoman/types': ^1.1.0
     dependencies:
       '@types/inquirer': 9.0.7
-      '@yeoman/types': 1.1.2(@types/inquirer@9.0.7)(mem-fs@4.0.0)
+      '@yeoman/types': 1.1.2(@types/inquirer@9.0.7)(mem-fs@4.1.0)
       chalk: 5.3.0
       inquirer: 9.2.11
       log-symbols: 5.1.0
@@ -1488,7 +1501,7 @@ packages:
       p-queue: 7.4.1
       text-table: 0.2.0
 
-  /@yeoman/conflicter@2.0.0-alpha.2(@yeoman/types@1.1.2)(mem-fs@4.0.0):
+  /@yeoman/conflicter@2.0.0-alpha.2(@yeoman/types@1.1.2)(mem-fs@4.1.0):
     resolution: {integrity: sha512-oyiCcwek6wN9IAnwTZyCV1bYmcLRFoODmHu0USDbAQ+rjOUqt0HjnBqiNZX3bYsa8GtoIT0mYCYHDoLsRj+/hg==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
@@ -1497,14 +1510,14 @@ packages:
     dependencies:
       '@types/node': 16.18.83
       '@yeoman/transform': 1.2.0
-      '@yeoman/types': 1.1.2(@types/inquirer@9.0.7)(mem-fs@4.0.0)
+      '@yeoman/types': 1.1.2(@types/inquirer@9.0.7)(mem-fs@4.1.0)
       binary-extensions: 2.2.0
       cli-table: 0.3.11
       dateformat: 5.0.3
       diff: 5.1.0
       isbinaryfile: 5.0.0
-      mem-fs: 4.0.0
-      mem-fs-editor: 11.0.0(mem-fs@4.0.0)
+      mem-fs: 4.1.0
+      mem-fs-editor: 11.0.0(mem-fs@4.1.0)
       minimatch: 9.0.3
       p-transform: 4.1.3
       pretty-bytes: 6.1.1
@@ -1522,7 +1535,7 @@ packages:
       minimatch: 9.0.3
       readable-stream: 4.4.2
 
-  /@yeoman/types@1.1.2(@types/inquirer@9.0.7)(mem-fs@4.0.0):
+  /@yeoman/types@1.1.2(@types/inquirer@9.0.7)(mem-fs@4.1.0):
     resolution: {integrity: sha512-/hg8AIU0ZLijHfZWi0vFgWPVWvUJs/tlKeia7Z5sKsWYGCcqsPSHZcnov5bZlpxv8v+vPQ8K9VtTKORtVALsJw==}
     engines: {node: ^16.13.0 || >=18.12.0}
     peerDependencies:
@@ -1539,8 +1552,8 @@ packages:
         optional: true
     dependencies:
       '@types/inquirer': 9.0.7
-      '@types/node': 16.18.83
-      mem-fs: 4.0.0
+      '@types/node': 16.18.84
+      mem-fs: 4.1.0
 
   /JSONStream@1.3.5:
     resolution: {integrity: sha512-E+iruNOY8VV9s4JEbe1aNEm6MiszPRr/UfcHMz0TQh1BXSxHK+ASV1R6W4HpjBhSeS+54PIsAMCBmwD06LLsqQ==}
@@ -1893,7 +1906,7 @@ packages:
       '@npmcli/fs': 3.1.0
       fs-minipass: 3.0.3
       glob: 10.2.2
-      lru-cache: 10.0.1
+      lru-cache: 10.2.0
       minipass: 7.0.4
       minipass-collect: 1.0.2
       minipass-flush: 1.0.5
@@ -2679,9 +2692,9 @@ packages:
       synckit: 0.8.5
     dev: true
 
-  /eslint-plugin-vitest@0.3.0(@typescript-eslint/eslint-plugin@7.0.1)(eslint@8.39.0)(vitest@1.0.0):
-    resolution: {integrity: sha512-NmEOOXQvU9f/30xlRk5Upv3VgDacFv8CaSiHjn3K/JthV2qUFF/l5gICP2vVTNETzYMx2ucmUOyOabeSKxkesA==}
-    engines: {node: 14.x || >= 16}
+  /eslint-plugin-vitest@0.3.22(@typescript-eslint/eslint-plugin@7.0.1)(eslint@8.39.0)(typescript@5.0.4)(vitest@1.0.0):
+    resolution: {integrity: sha512-atkFGQ7aVgcuSeSMDqnyevIyUpfBPMnosksgEPrKE7Y8xQlqG/5z2IQ6UDau05zXaaFv7Iz8uzqvIuKshjZ0Zw==}
+    engines: {node: ^18.0.0 || >= 20.0.0}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': '*'
       eslint: '>=8.0.0'
@@ -2689,14 +2702,16 @@ packages:
     peerDependenciesMeta:
       '@typescript-eslint/eslint-plugin':
         optional: true
+      vitest:
+        optional: true
     dependencies:
       '@typescript-eslint/eslint-plugin': 7.0.1(@typescript-eslint/parser@7.0.1)(eslint@8.39.0)(typescript@5.0.4)
-      '@typescript-eslint/utils': 6.5.0(eslint@8.39.0)(typescript@5.2.2)
+      '@typescript-eslint/utils': 6.21.0(eslint@8.39.0)(typescript@5.0.4)
       eslint: 8.39.0
-      typescript: 5.2.2
       vitest: 1.0.0(@types/node@18.19.18)
     transitivePeerDependencies:
       - supports-color
+      - typescript
     dev: true
 
   /eslint-scope@7.2.0:
@@ -2714,6 +2729,11 @@ packages:
 
   /eslint-visitor-keys@3.4.1:
     resolution: {integrity: sha512-pZnmmLwYzf+kWaM/Qgrvpen51upAktaaiI01nsJD/Yr3lMOdNtq0cxkrrg16w64VtisN6okbs7Q8AfGqj4c9fA==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dev: true
+
+  /eslint-visitor-keys@3.4.3:
+    resolution: {integrity: sha512-wpc+LXeiyiisxPlEkUzU6svyS1frIO3Mgxj1fdy7Pm8Ygzguax2N3Fa/D/ag1WqbOprdI+uY6wMUl8/a2G+iag==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
@@ -4006,6 +4026,10 @@ packages:
     resolution: {integrity: sha512-IJ4uwUTi2qCccrioU6g9g/5rvvVl13bsdczUUcqbciD9iLr095yj8DQKdObriEvuNSx325N1rV1O0sJFszx75g==}
     engines: {node: 14 || >=16.14}
 
+  /lru-cache@10.2.0:
+    resolution: {integrity: sha512-2bIM8x+VAf6JT4bKAljS1qUWgMsqZRPGJS6FSahIMPVvctcNhyVp7AJu7quxOW9jwkryBReKZY5tY5JYv2n/7Q==}
+    engines: {node: 14 || >=16.14}
+
   /lru-cache@6.0.0:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
@@ -4100,7 +4124,7 @@ packages:
       vinyl: 3.0.0
     dev: true
 
-  /mem-fs-editor@11.0.0(mem-fs@4.0.0):
+  /mem-fs-editor@11.0.0(mem-fs@4.1.0):
     resolution: {integrity: sha512-D9+DPIDohRxYUO95vR3RxJZUNkCmehOHqIoJVm9OxChMadCsNdiTB1nuU4zaHJonUMASYdfKN2USxnB9z0ccXg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
@@ -4114,7 +4138,7 @@ packages:
       ejs: 3.1.9
       globby: 13.2.2
       isbinaryfile: 5.0.0
-      mem-fs: 4.0.0
+      mem-fs: 4.1.0
       minimatch: 9.0.3
       multimatch: 6.0.0
       normalize-path: 3.0.0
@@ -4131,11 +4155,11 @@ packages:
       vinyl-file: 5.0.0
     dev: true
 
-  /mem-fs@4.0.0:
-    resolution: {integrity: sha512-GCt8Xh5cRZ1ep45A8T+NlUYCPHzSj5JG2Xo7CA4Z8ISZ8Ovw0UQhQGt+J/z2xk7M3F9F4X9ZjSYk9UYlLLy4Wg==}
+  /mem-fs@4.1.0:
+    resolution: {integrity: sha512-lOB7haBbxO43eZ/++GA+jBMHQ9DNJeliMt35jNutzCfAgEg5gblFCItnzsss8Z4t81bB5jsz77bptqelHQn0Qw==}
     engines: {node: '>=18.0.0'}
     dependencies:
-      '@types/node': 20.11.20
+      '@types/node': 20.11.21
       '@types/vinyl': 2.0.11
       vinyl: 3.0.0
       vinyl-file: 5.0.0
@@ -5302,6 +5326,14 @@ packages:
     dependencies:
       lru-cache: 6.0.0
 
+  /semver@7.6.0:
+    resolution: {integrity: sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      lru-cache: 6.0.0
+    dev: true
+
   /set-blocking@2.0.0:
     resolution: {integrity: sha512-KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw==}
 
@@ -5735,13 +5767,13 @@ packages:
       typescript: 5.0.4
     dev: true
 
-  /ts-api-utils@1.0.1(typescript@5.2.2):
-    resolution: {integrity: sha512-lC/RGlPmwdrIBFTX59wwNzqh7aR2otPNPR/5brHZm/XKFYKsfqxihXUe9pU3JI+3vGkl+vyCoNNnPhJn3aLK1A==}
-    engines: {node: '>=16.13.0'}
+  /ts-api-utils@1.2.1(typescript@5.0.4):
+    resolution: {integrity: sha512-RIYA36cJn2WiH9Hy77hdF9r7oEwxAtB/TS9/S4Qd90Ap4z5FSiin5zEiTL44OII1Y3IIlEvxwxFUVgrHSZ/UpA==}
+    engines: {node: '>=16'}
     peerDependencies:
       typescript: '>=4.2.0'
     dependencies:
-      typescript: 5.2.2
+      typescript: 5.0.4
     dev: true
 
   /ts-node@10.9.1(@types/node@18.19.18)(typescript@5.0.4):
@@ -6229,7 +6261,7 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /yeoman-environment@4.0.0(@yeoman/types@1.1.2)(mem-fs@4.0.0):
+  /yeoman-environment@4.0.0(@yeoman/types@1.1.2)(mem-fs@4.1.0):
     resolution: {integrity: sha512-pdr9XhhIfRQmjG+VO2J0420SeI/E5O+dM8CLIG1+8q01kqtiZoxgfI1WGeMiZMIVv4jr8w63qhHVYr7gpRLDVA==}
     engines: {node: ^18.17.0 || >=20.5.0}
     hasBin: true
@@ -6238,10 +6270,10 @@ packages:
       mem-fs: ^4.0.0
     dependencies:
       '@yeoman/adapter': 1.4.0(@yeoman/types@1.1.2)
-      '@yeoman/conflicter': 2.0.0-alpha.2(@yeoman/types@1.1.2)(mem-fs@4.0.0)
+      '@yeoman/conflicter': 2.0.0-alpha.2(@yeoman/types@1.1.2)(mem-fs@4.1.0)
       '@yeoman/namespace': 1.0.0
       '@yeoman/transform': 1.2.0
-      '@yeoman/types': 1.1.2(@types/inquirer@9.0.7)(mem-fs@4.0.0)
+      '@yeoman/types': 1.1.2(@types/inquirer@9.0.7)(mem-fs@4.1.0)
       arrify: 3.0.0
       chalk: 5.3.0
       commander: 11.1.0
@@ -6252,8 +6284,8 @@ packages:
       grouped-queue: 2.0.0
       locate-path: 7.2.0
       lodash-es: 4.17.21
-      mem-fs: 4.0.0
-      mem-fs-editor: 11.0.0(mem-fs@4.0.0)
+      mem-fs: 4.1.0
+      mem-fs-editor: 11.0.0(mem-fs@4.1.0)
       semver: 7.5.4
       slash: 5.1.0
       untildify: 5.0.0
@@ -6262,7 +6294,7 @@ packages:
       - bluebird
       - supports-color
 
-  /yeoman-generator@7.0.0(@yeoman/types@1.1.2)(mem-fs@4.0.0)(yeoman-environment@4.0.0):
+  /yeoman-generator@7.0.0(@yeoman/types@1.1.2)(mem-fs@4.1.0)(yeoman-environment@4.0.0):
     resolution: {integrity: sha512-QF9dCH22G9ZMnzBDhNiqFBRtsU73HOAFtOZNMWCqMCtkmTD9j3D6rESD8o9kiXLKJhIOVKfMG9fGbyNWRQbFAA==}
     engines: {node: ^18.17.0 || >=20.5.0}
     peerDependencies:
@@ -6276,7 +6308,7 @@ packages:
       '@types/lodash-es': 4.17.9
       '@types/node': 18.18.6
       '@yeoman/namespace': 1.0.0
-      '@yeoman/types': 1.1.2(@types/inquirer@9.0.7)(mem-fs@4.0.0)
+      '@yeoman/types': 1.1.2(@types/inquirer@9.0.7)(mem-fs@4.1.0)
       chalk: 5.3.0
       debug: 4.3.4
       execa: 8.0.1
@@ -6284,15 +6316,15 @@ packages:
       json-schema: 0.4.0
       latest-version: 7.0.0
       lodash-es: 4.17.21
-      mem-fs: 4.0.0
-      mem-fs-editor: 11.0.0(mem-fs@4.0.0)
+      mem-fs: 4.1.0
+      mem-fs-editor: 11.0.0(mem-fs@4.1.0)
       minimist: 1.2.8
       read-pkg-up: 10.1.0
       semver: 7.5.4
       simple-git: 3.20.0
       sort-keys: 5.0.0
       text-table: 0.2.0
-      yeoman-environment: 4.0.0(@yeoman/types@1.1.2)(mem-fs@4.0.0)
+      yeoman-environment: 4.0.0(@yeoman/types@1.1.2)(mem-fs@4.1.0)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -6311,7 +6343,7 @@ packages:
         optional: true
     dependencies:
       '@yeoman/adapter': 1.4.0(@yeoman/types@1.1.2)
-      '@yeoman/types': 1.1.2(@types/inquirer@9.0.7)(mem-fs@4.0.0)
+      '@yeoman/types': 1.1.2(@types/inquirer@9.0.7)(mem-fs@4.1.0)
       inquirer: 9.2.11
       lodash-es: 4.17.21
       mem-fs: 3.0.0
@@ -6319,8 +6351,8 @@ packages:
       sinon: 16.1.0
       temp-dir: 3.0.0
       type-fest: 4.4.0
-      yeoman-environment: 4.0.0(@yeoman/types@1.1.2)(mem-fs@4.0.0)
-      yeoman-generator: 7.0.0(@yeoman/types@1.1.2)(mem-fs@4.0.0)(yeoman-environment@4.0.0)
+      yeoman-environment: 4.0.0(@yeoman/types@1.1.2)(mem-fs@4.1.0)
+      yeoman-generator: 7.0.0(@yeoman/types@1.1.2)(mem-fs@4.1.0)(yeoman-environment@4.0.0)
     dev: true
 
   /yn@3.1.1:
