@@ -10,7 +10,7 @@ dependencies:
     version: 5.2.0
   yeoman-generator:
     specifier: ^7.0.0
-    version: 7.0.0(@yeoman/types@1.2.0)(yeoman-environment@4.3.0)
+    version: 7.0.0(@yeoman/types@1.2.0)(yeoman-environment@4.4.0)
 
 devDependencies:
   '@commitlint/cli':
@@ -78,10 +78,10 @@ devDependencies:
     version: 3.1.1
   yeoman-environment:
     specifier: ^4.0.0
-    version: 4.3.0(@yeoman/types@1.2.0)
+    version: 4.4.0(@yeoman/types@1.2.0)
   yeoman-test:
     specifier: ^8.0.0
-    version: 8.2.0(@yeoman/types@1.2.0)(yeoman-environment@4.3.0)(yeoman-generator@7.0.0)
+    version: 8.2.0(@yeoman/types@1.2.0)(yeoman-environment@4.4.0)(yeoman-generator@7.0.0)
 
 packages:
 
@@ -6239,8 +6239,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /yeoman-environment@4.3.0(@yeoman/types@1.2.0):
-    resolution: {integrity: sha512-8cKRpZbOSx4wFP2B8XvZLOuPiYq9okcWuwL99K80QbSPGB7IymwHWyMvtXiv2nbQrNXX9SNRLhzCIY4oSimWcQ==}
+  /yeoman-environment@4.4.0(@yeoman/types@1.2.0):
+    resolution: {integrity: sha512-X53IlyzOI4gX1vEGlxW1Q9lJ73sJq4o13gLeDw5IzDMBVn0xnmsmxphs+dWDzSmipirmZQaWKQhBH/rEAXTCLA==}
     engines: {node: ^18.17.0 || >=20.5.0}
     hasBin: true
     peerDependencies:
@@ -6271,7 +6271,7 @@ packages:
       - bluebird
       - supports-color
 
-  /yeoman-generator@7.0.0(@yeoman/types@1.2.0)(yeoman-environment@4.3.0):
+  /yeoman-generator@7.0.0(@yeoman/types@1.2.0)(yeoman-environment@4.4.0):
     resolution: {integrity: sha512-QF9dCH22G9ZMnzBDhNiqFBRtsU73HOAFtOZNMWCqMCtkmTD9j3D6rESD8o9kiXLKJhIOVKfMG9fGbyNWRQbFAA==}
     engines: {node: ^18.17.0 || >=20.5.0}
     peerDependencies:
@@ -6300,12 +6300,12 @@ packages:
       simple-git: 3.20.0
       sort-keys: 5.0.0
       text-table: 0.2.0
-      yeoman-environment: 4.3.0(@yeoman/types@1.2.0)
+      yeoman-environment: 4.4.0(@yeoman/types@1.2.0)
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  /yeoman-test@8.2.0(@yeoman/types@1.2.0)(yeoman-environment@4.3.0)(yeoman-generator@7.0.0):
+  /yeoman-test@8.2.0(@yeoman/types@1.2.0)(yeoman-environment@4.4.0)(yeoman-generator@7.0.0):
     resolution: {integrity: sha512-P5F3LmUq94OiAYX5fcA2Avn0/4BjaUKMMH9nQN4o4QOASWmWdRxHd8jHjNCC8axC7UVXPcDta6GgjWA0Ok2PLw==}
     engines: {node: ^16.17.0 || >=18.12.0}
     peerDependencies:
@@ -6327,8 +6327,8 @@ packages:
       sinon: 16.1.3
       temp-dir: 3.0.0
       type-fest: 4.12.0
-      yeoman-environment: 4.3.0(@yeoman/types@1.2.0)
-      yeoman-generator: 7.0.0(@yeoman/types@1.2.0)(yeoman-environment@4.3.0)
+      yeoman-environment: 4.4.0(@yeoman/types@1.2.0)
+      yeoman-generator: 7.0.0(@yeoman/types@1.2.0)(yeoman-environment@4.4.0)
     dev: true
 
   /yocto-queue@0.1.0:
