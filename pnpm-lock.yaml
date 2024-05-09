@@ -13,7 +13,7 @@ importers:
         version: 5.3.0
       yeoman-generator:
         specifier: ^7.0.0
-        version: 7.1.1(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)(yeoman-environment@4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))(mem-fs@3.0.0))
+        version: 7.1.1(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)(yeoman-environment@4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))
     devDependencies:
       '@commitlint/cli':
         specifier: ^19.0.0
@@ -80,10 +80,10 @@ importers:
         version: 3.1.1
       yeoman-environment:
         specifier: ^4.0.0
-        version: 4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))(mem-fs@3.0.0)
+        version: 4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)
       yeoman-test:
         specifier: ^8.0.0
-        version: 8.2.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))(mem-fs@3.0.0)(yeoman-environment@4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))(mem-fs@3.0.0))(yeoman-generator@7.1.1(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)(yeoman-environment@4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))(mem-fs@3.0.0)))
+        version: 8.3.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)(yeoman-environment@4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))(yeoman-generator@7.1.1(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)(yeoman-environment@4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)))
 
 packages:
 
@@ -338,6 +338,10 @@ packages:
   '@humanwhocodes/retry@0.2.4':
     resolution: {integrity: sha512-Ttl/jHpxfS3st5sxwICYfk4pOH0WrLI1SpW283GgQL7sCWU7EHIOhX4b4fkIxr3tkfzwg8+FNojtzsIEE7Ecgg==}
     engines: {node: '>=18.18'}
+
+  '@inquirer/figures@1.0.1':
+    resolution: {integrity: sha512-mtup3wVKia3ZwULPHcbs4Mor8Voi+iIXEWD7wCNbIO6lYR62oPCTQyrddi5OMYVXHzeCSoneZwJuS8sBvlEwDw==}
+    engines: {node: '>=18'}
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -693,11 +697,17 @@ packages:
   '@types/node@16.18.96':
     resolution: {integrity: sha512-84iSqGXoO+Ha16j8pRZ/L90vDMKX04QTYMTfYeE1WrjWaZXuchBehGUZEpNgx7JnmlrIHdnABmpjrQjhCnNldQ==}
 
+  '@types/node@16.18.97':
+    resolution: {integrity: sha512-4muilE1Lbfn57unR+/nT9AFjWk0MtWi5muwCEJqnOvfRQDbSfLCUdN7vCIg8TYuaANfhLOV85ve+FNpiUsbSRg==}
+
   '@types/node@18.19.24':
     resolution: {integrity: sha512-eghAz3gnbQbvnHqB+mgB2ZR3aH6RhdEmHGS48BnV75KceQPHqabkxKI0BbUSsqhqy2Ddhc2xD/VAR9ySZd57Lw==}
 
   '@types/node@18.19.31':
     resolution: {integrity: sha512-ArgCD39YpyyrtFKIqMDvjz79jto5fcI/SVUs2HwB+f0dAzq68yqOdyaSivLiLugSziTpNXLQrVb7RZFmdZzbhA==}
+
+  '@types/node@18.19.33':
+    resolution: {integrity: sha512-NR9+KrpSajr2qBVp/Yt5TU/rp+b5Mayi3+OlMlcg2cVCfRmcG5PWZ7S4+MG9PZ5gWBoc9Pd0BKSRViuBCRPu0A==}
 
   '@types/node@20.11.20':
     resolution: {integrity: sha512-7/rR21OS+fq8IyHTgtLkDK949uzsa6n8BkziAKtPVpugIkO6D+/ooXMvzXxDnZrmtXVfjb1bKQafYpb8s89LOg==}
@@ -722,6 +732,9 @@ packages:
 
   '@types/vinyl@2.0.11':
     resolution: {integrity: sha512-vPXzCLmRp74e9LsP8oltnWKTH+jBwt86WgRUb4Pc9Lf3pkMVGyvIo2gm9bODeGfCay2DBB/hAWDuvf07JcK4rw==}
+
+  '@types/vinyl@2.0.12':
+    resolution: {integrity: sha512-Sr2fYMBUVGYq8kj3UthXFAu5UN6ZW+rYr4NACjZQJvHvj+c8lYv0CahmZ2P/r7iUkN44gGUBwqxZkrKXYPb7cw==}
 
   '@types/yeoman-assert@3.1.4':
     resolution: {integrity: sha512-hKiUQ1VVfJW1CFE/trneWj2oTcZ/VPGbiSB6RV/lGOGb6zpue+9jelw5fh0jMA5usEsKllK8LrzlKoPe2tghpw==}
@@ -893,8 +906,8 @@ packages:
     resolution: {integrity: sha512-gKXj5ALrKWQLsYG9jlTRmR/xKluxHV+Z9QEwNIgCfM1/uwPMCuzVVnh5mwTd+OuBZcwSIMbqssNWRm1lE51QaQ==}
     engines: {node: '>=8'}
 
-  ansi-escapes@6.2.0:
-    resolution: {integrity: sha512-kzRaCqXnpzWs+3z5ABPQiVke+iq0KXkHo8xiWV4RPTi5Yli0l97BEQuhXV1s7+aSU/fu1kUuxgS4MsQ0fRuygw==}
+  ansi-escapes@6.2.1:
+    resolution: {integrity: sha512-4nJ3yixlEthEJ9Rk4vPcdBRkZvQZlYyu8j4/Mqz5sgIkddmEnH2Yj2ZrnP9S3tQOvSNRUIgVNF/1yPpRAGNRig==}
     engines: {node: '>=14.16'}
 
   ansi-regex@5.0.1:
@@ -1344,6 +1357,11 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
+  ejs@3.1.10:
+    resolution: {integrity: sha512-UeJmFfOrAQS8OJWPZ4qtgHyWExa088/MtK5UEyoJGFH67cDEXkZSviOiKRCZ4Xij0zxI3JECgYs3oKx+AizQBA==}
+    engines: {node: '>=0.10.0'}
+    hasBin: true
+
   ejs@3.1.9:
     resolution: {integrity: sha512-rC+QVNMJWv+MtPgkt0y+0rVEIdbtxVADApW9JXrUVlzHetgcyczP/E7DJmWJ4fJCZF2cPcBk0laWO9ZHMG3DmQ==}
     engines: {node: '>=0.10.0'}
@@ -1591,10 +1609,6 @@ packages:
 
   fastq@1.17.1:
     resolution: {integrity: sha512-sRVD3lWVIXWg6By68ZN7vho9a1pQcN/WBFaAAsDDFzlJjvoGx0P8z7V1t72grFJfJhu3YPZBuu25f7Kaw2jN1w==}
-
-  figures@3.2.0:
-    resolution: {integrity: sha512-yaduQFRKLXYOGgEn6AZau90j3ggSOyiqXU0F9JZfeXYhNa+Jk4X+s45A2zg5jns87GAFa34BBm2kXw4XpNcbdg==}
-    engines: {node: '>=8'}
 
   file-entry-cache@8.0.0:
     resolution: {integrity: sha512-XXTUwCvisa5oacNGRP9SfNtYBNAMi+RPwBFmblZEF7N7swHYQS6/Zfk7SRwx4D5j3CH211YNRco1DEMNVfZCnQ==}
@@ -1909,8 +1923,8 @@ packages:
     resolution: {integrity: sha512-QQnnxNyfvmHFIsj7gkPcYymR8Jdw/o7mp5ZFihxn6h8Ci6fh3Dx4E1gPjpQEpIuPo9XVNY/ZUwh4BPMjGyL01g==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
 
-  inquirer@9.2.15:
-    resolution: {integrity: sha512-vI2w4zl/mDluHt9YEQ/543VTCwPKWiHzKtm9dM2V0NdFcqEexDAjUHzO1oA60HRNaVifGXXM1tRRNluLVHa0Kg==}
+  inquirer@9.2.20:
+    resolution: {integrity: sha512-SFwJJPS+Ms75NV+wzFBHjirG4z3tzvis31h+9NyH1tqjIu2c7vCavlXILZ73q/nPYy8/aw4W+DNzLH5MjfYXiA==}
     engines: {node: '>=18'}
 
   internal-slot@1.0.7:
@@ -2075,6 +2089,11 @@ packages:
 
   jake@10.8.7:
     resolution: {integrity: sha512-ZDi3aP+fG/LchyBzUM804VjddnwfSfsdeYkwt8NcbKRvo4rFkjhs456iLFn3k2ZUWvNe4i48WACDbza8fhq2+w==}
+    engines: {node: '>=10'}
+    hasBin: true
+
+  jake@10.9.1:
+    resolution: {integrity: sha512-61btcOHNnLnsOdtLgA5efqQWjnSi/vow5HbI7HMdKKWqvrKR1bLK3BPlJn9gcSaP2ewuamUSMB5XEy76KUIS2w==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -2648,8 +2667,8 @@ packages:
     resolution: {integrity: sha512-MkhCqzzBEpPvxxQ71Md0b1Kk51W01lrYvlMzSUaIzNsODdd7mqhiimSZlr+VegAz5Z6Vzt9Xg2ttE//XBhH3EQ==}
     engines: {node: '>=16 || 14 >=14.17'}
 
-  path-to-regexp@6.2.1:
-    resolution: {integrity: sha512-JLyh7xT1kizaEvcaXOQwOc2/Yhw6KZOvPf1S8401UyLk86CU79LN3vl7ztXGm/pZ+YjoyAJ4rxmHwbkBXJX+yw==}
+  path-to-regexp@6.2.2:
+    resolution: {integrity: sha512-GQX3SSMokngb36+whdpRXE+3f9V8UzyAorlYvOGx87ufGHehNTn5lCxrKtLyZ4Yl/wEKnNnr98ZzOwwDZV5ogw==}
 
   path-type@4.0.0:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
@@ -3223,16 +3242,12 @@ packages:
     resolution: {integrity: sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==}
     engines: {node: '>=12.20'}
 
-  type-fest@3.12.0:
-    resolution: {integrity: sha512-qj9wWsnFvVEMUDbESiilKeXeHL7FwwiFcogfhfyjmvT968RXSvnl23f1JOClTHYItsi7o501C/7qVllscUP3oA==}
-    engines: {node: '>=14.16'}
-
   type-fest@3.13.1:
     resolution: {integrity: sha512-tLq3bSNx+xSpwvAJnzrK0Ep5CLNWjvFTOp71URMaAEWBfRb9nnJiBoUe0tF8bI4ZFO3omgBR6NvnbzVUT3Ly4g==}
     engines: {node: '>=14.16'}
 
-  type-fest@4.12.0:
-    resolution: {integrity: sha512-5Y2/pp2wtJk8o08G0CMkuFPCO354FGwk/vbidxrdhRGZfd0tFnb4Qb8anp9XxXriwBgVPjdWbKpGl4J9lJY2jQ==}
+  type-fest@4.18.2:
+    resolution: {integrity: sha512-+suCYpfJLAe4OXS6+PPXjW3urOS4IoP9waSiLuXfLgqZODKw/aWwASvzqE886wA0kQgGy0mIWyhd87VpqIy6Xg==}
     engines: {node: '>=16'}
 
   typed-array-buffer@1.0.2:
@@ -3473,8 +3488,8 @@ packages:
       yeoman-environment:
         optional: true
 
-  yeoman-test@8.2.0:
-    resolution: {integrity: sha512-P5F3LmUq94OiAYX5fcA2Avn0/4BjaUKMMH9nQN4o4QOASWmWdRxHd8jHjNCC8axC7UVXPcDta6GgjWA0Ok2PLw==}
+  yeoman-test@8.3.0:
+    resolution: {integrity: sha512-etIrJFTN1RcWBNqqDR6qkIH83cbOq5OkDu/dG0RdC5WYFoVtBlz8Hby4LV+j1bLdAsYsX7YSJCPQzo2mQVJusw==}
     engines: {node: ^16.17.0 || >=18.12.0}
     peerDependencies:
       '@yeoman/types': ^1.1.0
@@ -3727,6 +3742,8 @@ snapshots:
   '@humanwhocodes/object-schema@2.0.3': {}
 
   '@humanwhocodes/retry@0.2.4': {}
+
+  '@inquirer/figures@1.0.1': {}
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -4165,11 +4182,17 @@ snapshots:
 
   '@types/node@16.18.96': {}
 
+  '@types/node@16.18.97': {}
+
   '@types/node@18.19.24':
     dependencies:
       undici-types: 5.26.5
 
   '@types/node@18.19.31':
+    dependencies:
+      undici-types: 5.26.5
+
+  '@types/node@18.19.33':
     dependencies:
       undici-types: 5.26.5
 
@@ -4197,6 +4220,11 @@ snapshots:
     dependencies:
       '@types/expect': 1.20.4
       '@types/node': 20.11.20
+
+  '@types/vinyl@2.0.12':
+    dependencies:
+      '@types/expect': 1.20.4
+      '@types/node': 18.19.33
 
   '@types/yeoman-assert@3.1.4':
     dependencies:
@@ -4348,22 +4376,22 @@ snapshots:
       loupe: 2.3.7
       pretty-format: 29.7.0
 
-  '@yeoman/adapter@1.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))':
+  '@yeoman/adapter@1.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))':
     dependencies:
       '@types/inquirer': 9.0.7
-      '@yeoman/types': 1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0)
+      '@yeoman/types': 1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0)
       chalk: 5.3.0
-      inquirer: 9.2.15
+      inquirer: 9.2.20
       log-symbols: 5.1.0
       ora: 6.3.1
       p-queue: 7.4.1
       text-table: 0.2.0
 
-  '@yeoman/conflicter@2.0.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))(mem-fs@3.0.0)':
+  '@yeoman/conflicter@2.0.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)':
     dependencies:
       '@types/node': 16.18.96
       '@yeoman/transform': 1.2.0
-      '@yeoman/types': 1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0)
+      '@yeoman/types': 1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0)
       binary-extensions: 2.2.0
       cli-table: 0.3.11
       dateformat: 5.0.3
@@ -4384,13 +4412,13 @@ snapshots:
       minimatch: 9.0.4
       readable-stream: 4.5.2
 
-  '@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0)':
+  '@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0)':
     dependencies:
       '@types/inquirer': 9.0.7
-      '@types/node': 16.18.96
+      '@types/node': 16.18.97
     optionalDependencies:
       mem-fs: 3.0.0
-      mem-fs-editor: 11.0.0(mem-fs@3.0.0)
+      mem-fs-editor: 10.0.3
 
   JSONStream@1.3.5:
     dependencies:
@@ -4445,9 +4473,7 @@ snapshots:
     dependencies:
       type-fest: 0.21.3
 
-  ansi-escapes@6.2.0:
-    dependencies:
-      type-fest: 3.13.1
+  ansi-escapes@6.2.1: {}
 
   ansi-regex@5.0.1: {}
 
@@ -4844,7 +4870,7 @@ snapshots:
       decamelize: 6.0.0
       map-obj: 4.3.0
       quick-lru: 6.1.1
-      type-fest: 3.12.0
+      type-fest: 3.13.1
 
   decamelize@6.0.0: {}
 
@@ -4897,6 +4923,10 @@ snapshots:
       is-obj: 2.0.0
 
   eastasianwidth@0.2.0: {}
+
+  ejs@3.1.10:
+    dependencies:
+      jake: 10.9.1
 
   ejs@3.1.9:
     dependencies:
@@ -5259,10 +5289,6 @@ snapshots:
     dependencies:
       reusify: 1.0.4
 
-  figures@3.2.0:
-    dependencies:
-      escape-string-regexp: 1.0.5
-
   file-entry-cache@8.0.0:
     dependencies:
       flat-cache: 4.0.1
@@ -5587,15 +5613,15 @@ snapshots:
 
   ini@4.1.1: {}
 
-  inquirer@9.2.15:
+  inquirer@9.2.20:
     dependencies:
+      '@inquirer/figures': 1.0.1
       '@ljharb/through': 2.3.13
       ansi-escapes: 4.3.2
       chalk: 5.3.0
       cli-cursor: 3.1.0
       cli-width: 4.1.0
       external-editor: 3.1.0
-      figures: 3.2.0
       lodash: 4.17.21
       mute-stream: 1.0.0
       ora: 5.4.1
@@ -5740,6 +5766,13 @@ snapshots:
       filelist: 1.0.4
       minimatch: 3.1.2
 
+  jake@10.9.1:
+    dependencies:
+      async: 3.2.5
+      chalk: 4.1.2
+      filelist: 1.0.4
+      minimatch: 3.1.2
+
   jiti@1.21.0: {}
 
   js-tokens@4.0.0: {}
@@ -5874,7 +5907,7 @@ snapshots:
 
   log-update@6.0.0:
     dependencies:
-      ansi-escapes: 6.2.0
+      ansi-escapes: 6.2.1
       cli-cursor: 4.0.0
       slice-ansi: 7.1.0
       strip-ansi: 7.1.0
@@ -5924,7 +5957,7 @@ snapshots:
       binaryextensions: 4.19.0
       commondir: 1.0.1
       deep-extend: 0.6.0
-      ejs: 3.1.9
+      ejs: 3.1.10
       globby: 13.2.2
       isbinaryfile: 5.0.2
       mem-fs: 3.0.0
@@ -5953,8 +5986,8 @@ snapshots:
 
   mem-fs@3.0.0:
     dependencies:
-      '@types/node': 18.19.31
-      '@types/vinyl': 2.0.11
+      '@types/node': 18.19.33
+      '@types/vinyl': 2.0.12
       vinyl: 3.0.0
       vinyl-file: 5.0.0
 
@@ -5970,7 +6003,7 @@ snapshots:
       read-pkg-up: 9.1.0
       redent: 4.0.0
       trim-newlines: 5.0.0
-      type-fest: 3.12.0
+      type-fest: 3.13.1
       yargs-parser: 21.1.1
 
   meow@12.1.1: {}
@@ -6092,7 +6125,7 @@ snapshots:
       '@sinonjs/fake-timers': 11.2.2
       '@sinonjs/text-encoding': 0.7.2
       just-extend: 6.2.0
-      path-to-regexp: 6.2.1
+      path-to-regexp: 6.2.2
 
   node-fetch@2.7.0(encoding@0.1.13):
     dependencies:
@@ -6382,7 +6415,7 @@ snapshots:
     dependencies:
       '@babel/code-frame': 7.24.2
       index-to-position: 0.1.2
-      type-fest: 4.12.0
+      type-fest: 4.18.2
 
   path-exists@4.0.0: {}
 
@@ -6399,7 +6432,7 @@ snapshots:
       lru-cache: 10.2.0
       minipass: 7.0.4
 
-  path-to-regexp@6.2.1: {}
+  path-to-regexp@6.2.2: {}
 
   path-type@4.0.0: {}
 
@@ -6504,7 +6537,7 @@ snapshots:
     dependencies:
       find-up-simple: 1.0.0
       read-pkg: 9.0.1
-      type-fest: 4.12.0
+      type-fest: 4.18.2
 
   read-pkg-up@9.1.0:
     dependencies:
@@ -6524,7 +6557,7 @@ snapshots:
       '@types/normalize-package-data': 2.4.4
       normalize-package-data: 6.0.0
       parse-json: 8.1.0
-      type-fest: 4.12.0
+      type-fest: 4.18.2
       unicorn-magic: 0.1.0
 
   readable-stream@3.6.2:
@@ -6975,11 +7008,9 @@ snapshots:
 
   type-fest@2.19.0: {}
 
-  type-fest@3.12.0: {}
-
   type-fest@3.13.1: {}
 
-  type-fest@4.12.0: {}
+  type-fest@4.18.2: {}
 
   typed-array-buffer@1.0.2:
     dependencies:
@@ -7057,7 +7088,7 @@ snapshots:
 
   vinyl-file@5.0.0:
     dependencies:
-      '@types/vinyl': 2.0.11
+      '@types/vinyl': 2.0.12
       strip-bom-buf: 3.0.1
       strip-bom-stream: 5.0.0
       vinyl: 3.0.0
@@ -7234,13 +7265,13 @@ snapshots:
 
   yeoman-assert@3.1.1: {}
 
-  yeoman-environment@4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))(mem-fs@3.0.0):
+  yeoman-environment@4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0):
     dependencies:
-      '@yeoman/adapter': 1.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))
-      '@yeoman/conflicter': 2.0.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))(mem-fs@3.0.0)
+      '@yeoman/adapter': 1.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))
+      '@yeoman/conflicter': 2.0.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)
       '@yeoman/namespace': 1.0.0
       '@yeoman/transform': 1.2.0
-      '@yeoman/types': 1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0)
+      '@yeoman/types': 1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0)
       arrify: 3.0.0
       chalk: 5.3.0
       commander: 11.1.0
@@ -7261,12 +7292,12 @@ snapshots:
       - bluebird
       - supports-color
 
-  yeoman-generator@7.1.1(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)(yeoman-environment@4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))(mem-fs@3.0.0)):
+  yeoman-generator@7.1.1(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)(yeoman-environment@4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)):
     dependencies:
       '@types/lodash-es': 4.17.12
       '@types/node': 18.19.24
       '@yeoman/namespace': 1.0.0
-      '@yeoman/types': 1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0)
+      '@yeoman/types': 1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0)
       chalk: 5.3.0
       debug: 4.3.4
       execa: 8.0.1
@@ -7283,25 +7314,25 @@ snapshots:
       sort-keys: 5.0.0
       text-table: 0.2.0
     optionalDependencies:
-      yeoman-environment: 4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))(mem-fs@3.0.0)
+      yeoman-environment: 4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  yeoman-test@8.2.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))(mem-fs@3.0.0)(yeoman-environment@4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))(mem-fs@3.0.0))(yeoman-generator@7.1.1(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)(yeoman-environment@4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))(mem-fs@3.0.0))):
+  yeoman-test@8.3.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)(yeoman-environment@4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))(yeoman-generator@7.1.1(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)(yeoman-environment@4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))):
     dependencies:
-      '@yeoman/adapter': 1.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))
-      '@yeoman/types': 1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0)
-      inquirer: 9.2.15
+      '@yeoman/adapter': 1.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))
+      '@yeoman/types': 1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0)
+      inquirer: 9.2.20
       lodash-es: 4.17.21
       mem-fs: 3.0.0
       mem-fs-editor: 10.0.3
       sinon: 16.1.3
       temp-dir: 3.0.0
-      type-fest: 4.12.0
+      type-fest: 4.18.2
     optionalDependencies:
-      yeoman-environment: 4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))(mem-fs@3.0.0)
-      yeoman-generator: 7.1.1(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)(yeoman-environment@4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@11.0.0(mem-fs@3.0.0))(mem-fs@3.0.0))(mem-fs@3.0.0))
+      yeoman-environment: 4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)
+      yeoman-generator: 7.1.1(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)(yeoman-environment@4.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))
 
   yocto-queue@0.1.0: {}
 
