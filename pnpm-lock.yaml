@@ -83,7 +83,7 @@ importers:
         version: 4.4.1(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)
       yeoman-test:
         specifier: ^9.0.0
-        version: 9.1.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)(yeoman-environment@4.4.1(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))(yeoman-generator@7.3.2(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)(yeoman-environment@4.4.1(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)))
+        version: 9.2.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)(yeoman-environment@4.4.1(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))(yeoman-generator@7.3.2(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)(yeoman-environment@4.4.1(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)))
 
 packages:
 
@@ -352,8 +352,8 @@ packages:
     resolution: {integrity: sha512-ErXXzENMH5pJt5/ssXV0DfWUZqly8nGzf0UcBV9xTnP+KyffE2mqyxIMBrZ8ijQck2nU0TQm40EQB53YreyWHw==}
     engines: {node: '>=18'}
 
-  '@inquirer/figures@1.0.5':
-    resolution: {integrity: sha512-79hP/VWdZ2UVc9bFGJnoQ/lQMpL74mGgzSYX1xUqCVk7/v73vJCMw1VuyWN1jGkZ9B3z7THAbySqGbCNefcjfA==}
+  '@inquirer/figures@1.0.6':
+    resolution: {integrity: sha512-yfZzps3Cso2UbM7WlxKwZQh2Hs6plrbjs1QnzQDZhK2DgyCo6D8AaHps9olkNcUFlcYERMqU3uJSp1gmy3s/qQ==}
     engines: {node: '>=18'}
 
   '@isaacs/cliui@8.0.2':
@@ -704,9 +704,6 @@ packages:
 
   '@types/node@18.19.39':
     resolution: {integrity: sha512-nPwTRDKUctxw3di5b4TfT3I0sWDiWoPQCZjXhvdkINntwr8lcoVCKsTgnXeRubKIlfnV+eN/HYk6Jb40tbcEAQ==}
-
-  '@types/node@18.19.50':
-    resolution: {integrity: sha512-xonK+NRrMBRtkL1hVCc3G+uXtjh1Al4opBLjqVmipe5ZAaBYWW6cNAiBVZ1BvmkBhep698rP3UM3aRAdSALuhg==}
 
   '@types/node@18.19.51':
     resolution: {integrity: sha512-IIMkWEIVQDlBpi6pPeGqTqOx7KbzGC3EgIyH8NrxplXOwWw0uVl9vthJUMFrxD7kcEfcRp7jIkgpB28M6JnfWA==}
@@ -3647,8 +3644,8 @@ packages:
       yeoman-environment:
         optional: true
 
-  yeoman-test@9.1.0:
-    resolution: {integrity: sha512-gud8N/HJEFzOVVKCxX0bq/mlN265IBSlpfYejVrJFL/tFHEWBMcnnXH8DSzmggZHJKb46UmsXxdHNoJ9Px7T/Q==}
+  yeoman-test@9.2.0:
+    resolution: {integrity: sha512-xpHtoPxPu+qGgBM5zU9JGMxb8R00w5bOmzJdLsdSRhlwnd4QEsFm0D8l6YgmuDajixRg6Kel897JtqAjPGtTXg==}
     engines: {node: ^18.19.0 || >= 20.6.1}
     peerDependencies:
       '@yeoman/types': ^1.4.0
@@ -3917,7 +3914,7 @@ snapshots:
 
   '@inquirer/figures@1.0.3': {}
 
-  '@inquirer/figures@1.0.5': {}
+  '@inquirer/figures@1.0.6': {}
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -4343,10 +4340,6 @@ snapshots:
   '@types/node@16.18.109': {}
 
   '@types/node@18.19.39':
-    dependencies:
-      undici-types: 5.26.5
-
-  '@types/node@18.19.50':
     dependencies:
       undici-types: 5.26.5
 
@@ -5886,7 +5879,7 @@ snapshots:
 
   inquirer@9.3.6:
     dependencies:
-      '@inquirer/figures': 1.0.5
+      '@inquirer/figures': 1.0.6
       ansi-escapes: 4.3.2
       cli-width: 4.1.0
       external-editor: 3.1.0
@@ -6267,7 +6260,7 @@ snapshots:
   mem-fs-editor@11.1.1(mem-fs@3.0.0):
     dependencies:
       '@types/ejs': 3.1.5
-      '@types/node': 18.19.50
+      '@types/node': 18.19.51
       binaryextensions: 6.11.0
       commondir: 1.0.1
       deep-extend: 0.6.0
@@ -7623,7 +7616,7 @@ snapshots:
       - encoding
       - supports-color
 
-  yeoman-test@9.1.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)(yeoman-environment@4.4.1(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))(yeoman-generator@7.3.2(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)(yeoman-environment@4.4.1(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))):
+  yeoman-test@9.2.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)(yeoman-environment@4.4.1(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))(yeoman-generator@7.3.2(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)(yeoman-environment@4.4.1(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))):
     dependencies:
       '@yeoman/adapter': 1.6.0
       '@yeoman/types': 1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0)
