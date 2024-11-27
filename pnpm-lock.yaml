@@ -56,7 +56,7 @@ importers:
         version: 2.31.0(@typescript-eslint/parser@8.15.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.6.3))(eslint-import-resolver-typescript@3.6.3)(eslint@9.15.0(jiti@1.21.6))
       eslint-plugin-prettier:
         specifier: ^5.0.0
-        version: 5.2.1(eslint-config-prettier@9.1.0(eslint@9.15.0(jiti@1.21.6)))(eslint@9.15.0(jiti@1.21.6))(prettier@3.3.3)
+        version: 5.2.1(eslint-config-prettier@9.1.0(eslint@9.15.0(jiti@1.21.6)))(eslint@9.15.0(jiti@1.21.6))(prettier@3.4.1)
       husky:
         specifier: ^9.0.0
         version: 9.1.6
@@ -65,7 +65,7 @@ importers:
         version: 15.2.9
       prettier:
         specifier: ^3.0.0
-        version: 3.3.3
+        version: 3.4.1
       rimraf:
         specifier: ^6.0.0
         version: 6.0.1
@@ -714,14 +714,14 @@ packages:
   '@types/node@16.18.113':
     resolution: {integrity: sha512-4jHxcEzSXpF1cBNxogs5FVbVSFSKo50sFCn7Xg7vmjJTbWFWgeuHW3QnoINlfmfG++MFR/q97RZE5RQXKeT+jg==}
 
-  '@types/node@16.18.119':
-    resolution: {integrity: sha512-ia7V9a2FnhUFfetng4/sRPBMTwHZUkPFY736rb1cg9AgG7MZdR97q7/nLR9om+sq5f1la9C857E0l/nrI0RiFQ==}
+  '@types/node@16.18.120':
+    resolution: {integrity: sha512-Dmi4bhZ7CHyD4sv4awCZx9RBxWOXSejxTF6B5WQ5UzfLcyEg7JqdDDsjvdMRYES9EcTWHlHZe01PInSj18yP2A==}
 
   '@types/node@18.19.55':
     resolution: {integrity: sha512-zzw5Vw52205Zr/nmErSEkN5FLqXPuKX/k5d1D7RKHATGqU7y6YfX9QxZraUzUrFGqH6XzOzG196BC35ltJC4Cw==}
 
-  '@types/node@18.19.65':
-    resolution: {integrity: sha512-Ay5BZuO1UkTmVHzZJNvZKw/E+iB3GQABb6kijEz89w2JrfhNA+M/ebp18pfz9Gqe9ywhMC8AA8yC01lZq48J+Q==}
+  '@types/node@18.19.66':
+    resolution: {integrity: sha512-14HmtUdGxFUalGRfLLn9Gc1oNWvWh5zNbsyOLo5JV6WARSeN1QcEBKRnZm9QqNfrutgsl/hY4eJW63aZ44aBCg==}
 
   '@types/node@20.11.20':
     resolution: {integrity: sha512-7/rR21OS+fq8IyHTgtLkDK949uzsa6n8BkziAKtPVpugIkO6D+/ooXMvzXxDnZrmtXVfjb1bKQafYpb8s89LOg==}
@@ -2823,8 +2823,8 @@ packages:
     resolution: {integrity: sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==}
     engines: {node: '>=6.0.0'}
 
-  prettier@3.3.3:
-    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
+  prettier@3.4.1:
+    resolution: {integrity: sha512-G+YdqtITVZmOJje6QkXQWzl3fSfMxFwm1tjTyo9exhkmWSqC4Yhd1+lug++IlR2mvRVAxEDDWYkQdeSztajqgg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -4297,13 +4297,13 @@ snapshots:
 
   '@types/node@16.18.113': {}
 
-  '@types/node@16.18.119': {}
+  '@types/node@16.18.120': {}
 
   '@types/node@18.19.55':
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@18.19.65':
+  '@types/node@18.19.66':
     dependencies:
       undici-types: 5.26.5
 
@@ -4545,7 +4545,7 @@ snapshots:
   '@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0)':
     dependencies:
       '@types/inquirer': 9.0.7
-      '@types/node': 16.18.119
+      '@types/node': 16.18.120
     optionalDependencies:
       mem-fs: 3.0.0
       mem-fs-editor: 10.0.3
@@ -5277,10 +5277,10 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-plugin-prettier@5.2.1(eslint-config-prettier@9.1.0(eslint@9.15.0(jiti@1.21.6)))(eslint@9.15.0(jiti@1.21.6))(prettier@3.3.3):
+  eslint-plugin-prettier@5.2.1(eslint-config-prettier@9.1.0(eslint@9.15.0(jiti@1.21.6)))(eslint@9.15.0(jiti@1.21.6))(prettier@3.4.1):
     dependencies:
       eslint: 9.15.0(jiti@1.21.6)
-      prettier: 3.3.3
+      prettier: 3.4.1
       prettier-linter-helpers: 1.0.0
       synckit: 0.9.1
     optionalDependencies:
@@ -6161,7 +6161,7 @@ snapshots:
 
   mem-fs@3.0.0:
     dependencies:
-      '@types/node': 18.19.65
+      '@types/node': 18.19.66
       '@types/vinyl': 2.0.12
       vinyl: 3.0.0
       vinyl-file: 5.0.0
@@ -6647,7 +6647,7 @@ snapshots:
     dependencies:
       fast-diff: 1.3.0
 
-  prettier@3.3.3: {}
+  prettier@3.4.1: {}
 
   pretty-bytes@6.1.1: {}
 
