@@ -28,8 +28,8 @@ importers:
         specifier: ^6.0.0
         version: 6.0.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)
       '@types/yeoman-test':
-        specifier: ^4.0.3
-        version: 4.0.6(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)
+        specifier: ^7.0.0
+        version: 7.0.0(@yeoman/adapter@1.6.0)(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)(yeoman-environment@4.4.3(@types/node@22.13.0)(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))(yeoman-generator@7.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0))
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.0.0
         version: 8.23.0(@typescript-eslint/parser@8.23.0(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.2))(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.2)
@@ -679,9 +679,6 @@ packages:
   '@types/debug@4.1.12':
     resolution: {integrity: sha512-vIChWdVG3LG1SMxEvI/AK+FWJthlrqlTu7fbrlywTkkaONwk/UAGaULXRlf8vkzFBLVm0zkMdCquhL5aOjhXPQ==}
 
-  '@types/diff@5.0.9':
-    resolution: {integrity: sha512-RWVEhh/zGXpAVF/ZChwNnv7r4rvqzJ7lYNSmZSVTxjV0PBLf6Qu7RNg+SUtkpzxmiNkjCx0Xn2tPp7FIkshJwQ==}
-
   '@types/ejs@3.1.5':
     resolution: {integrity: sha512-nv+GSx77ZtXiJzwKdsASqi+YQ5Z7vwHsTP0JY2SiQgjGckkBRKZnk8nIM+7oUZ1VCtuTz0+By4qVR7fqzp/Dfg==}
 
@@ -690,9 +687,6 @@ packages:
 
   '@types/expect@1.20.4':
     resolution: {integrity: sha512-Q5Vn3yjTDyCMV50TB6VRIbQNxSE4OmZR86VSbGaNpfUolm0iePBB4KdEEHmxoY5sT2+2DIvXW0rvMDP2nHZ4Mg==}
-
-  '@types/inquirer@8.2.10':
-    resolution: {integrity: sha512-IdD5NmHyVjWM8SHWo/kPBgtzXatwPkfwzyP3fN1jF2g9BWt5WO+8hL2F4o2GKIYsU40PpqeevuUWvkS/roXJkA==}
 
   '@types/inquirer@9.0.7':
     resolution: {integrity: sha512-Q0zyBupO6NxGRZut/JdmqYKOnN95Eg5V8Csg3PGKkP+FnvsUZx1jAyK7fztIszxxMuoBA6E3KXWvdZVXIpx60g==}
@@ -708,12 +702,6 @@ packages:
 
   '@types/lodash@4.17.13':
     resolution: {integrity: sha512-lfx+dftrEZcdBPczf9d0Qv0x+j/rfNCMuC6OcfXmO8gkfeNAY88PgKUbvG56whcN23gc27yenwF6oJZXGFpYxg==}
-
-  '@types/mem-fs-editor@7.0.7':
-    resolution: {integrity: sha512-hLNd2KEDHz/3dg4Rq7y8fQJSOObzR/aFHrnR1imAfTtSO/6vJs2mOCy3Fwpfqs1uVj9KFahW1Ky7BFlDqPl1hg==}
-
-  '@types/mem-fs@1.1.5':
-    resolution: {integrity: sha512-fnzN9xAKb3IPEoKgAkbpDE+8Q5J+QoCThPTVv3oKDHUe5xBpENP7ZwXC6HZnXBmVPLK5zfUZrphPe6zeCTPyrQ==}
 
   '@types/minimatch@3.0.5':
     resolution: {integrity: sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==}
@@ -739,9 +727,6 @@ packages:
   '@types/node@20.11.20':
     resolution: {integrity: sha512-7/rR21OS+fq8IyHTgtLkDK949uzsa6n8BkziAKtPVpugIkO6D+/ooXMvzXxDnZrmtXVfjb1bKQafYpb8s89LOg==}
 
-  '@types/node@20.14.8':
-    resolution: {integrity: sha512-DO+2/jZinXfROG7j7WKFn/3C6nFwxy2lLpgLjEXJz+0XKphZlTLJ14mo8Vfg8X5BWN6XjyESXq+LcYdT7tR3bA==}
-
   '@types/node@22.10.2':
     resolution: {integrity: sha512-Xxr6BBRCAOQixvonOye19wnzyDiUtTeqldOOmj3CkeblonbccA12PFwlufvRdrpjXxqnmUaeiU5EOA+7s5diUQ==}
 
@@ -757,14 +742,8 @@ packages:
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
 
-  '@types/text-table@0.2.5':
-    resolution: {integrity: sha512-hcZhlNvMkQG/k1vcZ6yHOl6WAYftQ2MLfTHcYRZ2xYZFD8tGVnE3qFV0lj1smQeDSR7/yY0PyuUalauf33bJeA==}
-
   '@types/through@0.0.33':
     resolution: {integrity: sha512-HsJ+z3QuETzP3cswwtzt2vEIiHBk/dCcHGhbmG5X3ecnwFD/lPrMpliGXxSCg03L9AhrdwA4Oz/qfspkDW+xGQ==}
-
-  '@types/vinyl@2.0.11':
-    resolution: {integrity: sha512-vPXzCLmRp74e9LsP8oltnWKTH+jBwt86WgRUb4Pc9Lf3pkMVGyvIo2gm9bODeGfCay2DBB/hAWDuvf07JcK4rw==}
 
   '@types/vinyl@2.0.12':
     resolution: {integrity: sha512-Sr2fYMBUVGYq8kj3UthXFAu5UN6ZW+rYr4NACjZQJvHvj+c8lYv0CahmZ2P/r7iUkN44gGUBwqxZkrKXYPb7cw==}
@@ -772,15 +751,13 @@ packages:
   '@types/yeoman-assert@3.1.4':
     resolution: {integrity: sha512-hKiUQ1VVfJW1CFE/trneWj2oTcZ/VPGbiSB6RV/lGOGb6zpue+9jelw5fh0jMA5usEsKllK8LrzlKoPe2tghpw==}
 
-  '@types/yeoman-environment@2.10.11':
-    resolution: {integrity: sha512-kIDgoiuPnL9HGHwa2t6h4FiUgYFb411/okY0nKhRKw+IMsRxMOWzQUFhZ/CKQvwXvKoCjFTj+MZI2KXAKxVmug==}
-
   '@types/yeoman-generator@6.0.0':
     resolution: {integrity: sha512-K3UaW2Y2o1g+0bbaMtdtWA1oQe//W4AD8LYxDXT/qhjeLies35CV/2zWK9Rx32WYqp3FaYbHYKAS9e/5oZqvrw==}
     deprecated: This is a stub types definition. yeoman-generator provides its own type definitions, so you do not need this installed.
 
-  '@types/yeoman-test@4.0.6':
-    resolution: {integrity: sha512-yPhCCqXeinWoH78bvzalZ1fAYjPSSrLK+RgxFxkKKu1WSlSG0ilOPBnquqE4UwvXC30hrwHvXIUMPsXQaTESXA==}
+  '@types/yeoman-test@7.0.0':
+    resolution: {integrity: sha512-0GO83LMCuQyO7GlDrjngi7S5SBsCsj/yFtNXoIrgD5s5eaCj1Iv11zYQ9EDJO3nEqqltUYHydckQhsVJ192Ikg==}
+    deprecated: This is a stub types definition. yeoman-test provides its own type definitions, so you do not need this installed.
 
   '@typescript-eslint/eslint-plugin@8.23.0':
     resolution: {integrity: sha512-vBz65tJgRrA1Q5gWlRfvoH+w943dq9K1p1yDBY2pc+a1nbBLZp7fB9+Hk8DaALUbzjqlMfgaqlVPT1REJdkt/w==}
@@ -988,10 +965,6 @@ packages:
   array-includes@3.1.8:
     resolution: {integrity: sha512-itaWrbYbqpGXkGhZPGUulwnhVf5Hpy1xiCFsGqyIGglbBxmG5vSjxQen3/WGOjPpNEv1RtBLKxbmVXm8HpJStQ==}
     engines: {node: '>= 0.4'}
-
-  array-union@2.1.0:
-    resolution: {integrity: sha512-HGyxoOTYUyCM6stUe6EJgnd4EoewAI7zMdfqO+kGjnlZmBDz/cR5pf8r/cR4Wq60sL/p0IkcjUEEPwS3GFrIyw==}
-    engines: {node: '>=8'}
 
   array-union@3.0.1:
     resolution: {integrity: sha512-1OvF9IbWwaeiM9VhzYXVQacMibxpXOMYVNIvMtKRyX9SImBXpKcFr8XvFDeEslCyuH/t6KRt7HEO94AlP8Iatw==}
@@ -1201,10 +1174,6 @@ packages:
   commander@13.1.0:
     resolution: {integrity: sha512-/rFeCpNJQbhSZjGVwO9RFV3xPqbnERS8MmIQzCtD/zl6gpJuV/bMLuN92oG3F7d8oDEHHRrujSXNUr8fpjntKw==}
     engines: {node: '>=18'}
-
-  commander@9.5.0:
-    resolution: {integrity: sha512-KRs7WVDKg86PWiuAqhDrAQnTXZKraVcCc6vFdL14qrZ/DcWwuRo7VoiYXalXO7S5GKpqYiVEwCbgFDfxNHKJBQ==}
-    engines: {node: ^12.20.0 || >=14}
 
   common-ancestor-path@1.0.1:
     resolution: {integrity: sha512-L3sHRo1pXXEqX8VU28kfgUY+YGsk09hPqZiZmLacNib6XNTCM8ubYeT7ryXQw8asB1sKgcU5lkB7ONug08aB8w==}
@@ -1584,10 +1553,6 @@ packages:
     resolution: {integrity: sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==}
     engines: {node: '>=0.8.x'}
 
-  execa@5.1.1:
-    resolution: {integrity: sha512-8uSpZZocAZRBAPIEINJj3Lo9HyGitllczc27Eh5YYojjMFMn8yHMDMaUHE2Jqfq05D/wucwI4JGURyXt1vchyg==}
-    engines: {node: '>=10'}
-
   execa@7.2.0:
     resolution: {integrity: sha512-UduyVP7TLB5IcAQl+OzLyLcS/l32W/GLg+AhHJ+ow40FOk2U3SAllPwR44v4vmdFwIWqpdwxxpQbF1n5ta9seA==}
     engines: {node: ^14.18.0 || ^16.14.0 || >=18.0.0}
@@ -1777,10 +1742,6 @@ packages:
     resolution: {integrity: sha512-DpLKbNU4WylpxJykQujfCcwYWiV/Jhm50Goo0wrVILAv5jOr9d+H+UR3PhSCD2rCCEIg0uc+G+muBTwD54JhDQ==}
     engines: {node: '>= 0.4'}
 
-  globby@11.1.0:
-    resolution: {integrity: sha512-jhIXaOzy1sb8IyocaruWSn1TjmnBVs8Ayhcy83rmxNJ8q2uWKCAj3CnJY+KpGSXCueAPc0i05kVvVKtP1t9S3g==}
-    engines: {node: '>=10'}
-
   globby@13.2.2:
     resolution: {integrity: sha512-Y1zNGV+pzQdh7H39l9zgB4PJqjRNqydvdYCDG4HFXM4XuvSaQQlEc91IU1yALL8gUTDomgBAfz3XJdmUS+oo0w==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
@@ -1857,10 +1818,6 @@ packages:
   https-proxy-agent@7.0.5:
     resolution: {integrity: sha512-1e4Wqeblerz+tMKPIq2EMGiiWW1dIjZOksyHWSUm1rmuvw/how9hBHZ38lAGj5ID4Ik6EdkOw7NmWPy6LAwalw==}
     engines: {node: '>= 14'}
-
-  human-signals@2.1.0:
-    resolution: {integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==}
-    engines: {node: '>=10.17.0'}
 
   human-signals@4.3.1:
     resolution: {integrity: sha512-nZXjEF2nbo7lIw3mgYjItAfgQXog3OjJogSbKa2CQIIvSGWcKgeJnQlNXip6NglNzYH45nSRiEVimMvYL8DDqQ==}
@@ -2046,10 +2003,6 @@ packages:
   is-shared-array-buffer@1.0.3:
     resolution: {integrity: sha512-nA2hv5XIhLR3uVzDDfCIknerhx8XUKnstuOERPNNIinXG7v9u+ohXF67vxm4TPTEPU6lm61ZkwP3c9PCB97rhg==}
     engines: {node: '>= 0.4'}
-
-  is-stream@2.0.1:
-    resolution: {integrity: sha512-hFoiJiTl63nn+kstHGBtewWSKnQLpyb155KHheA1l39uvtO9nWIop1p3udqPcUd/xbF1VLMO4n7OI6p7RbngDg==}
-    engines: {node: '>=8'}
 
   is-stream@3.0.0:
     resolution: {integrity: sha512-LnQR4bZ9IADDRSkvpqMGvt/tEJWclzklNgSw48V5EAaAeDd6qGvN8ei6k5p0tvxSR171VmGyHuTiAOfxAbr8kA==}
@@ -2515,10 +2468,6 @@ packages:
     resolution: {integrity: sha512-5+bKQRH0J1xG1uZ1zMNvxW0VEyoNWgJpY9UDuluPFLKDfJ9u2JmmjmTJV1srBGQOROfdBMiVvnH2Zvpbm+xkVA==}
     engines: {node: ^16.14.0 || >=18.0.0}
 
-  npm-run-path@4.0.1:
-    resolution: {integrity: sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==}
-    engines: {node: '>=8'}
-
   npm-run-path@5.3.0:
     resolution: {integrity: sha512-ppwTtiJZq0O/ai0z7yfudtBpWIoxM8yE6nHi1X47eFR2EWORqfbu6CnPlNsjeN683eT0qG6H/Pyf9fCcvjnnnQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
@@ -2917,10 +2866,6 @@ packages:
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
 
-  rxjs@6.6.7:
-    resolution: {integrity: sha512-hTdwr+7yYNIT5n4AMYp85KA6yw2Va0FLa3Rguvbpa4W3I5xynaBZo41cM3XM+4Q6fRMj3sBYIR1VAmZMXYJvRQ==}
-    engines: {npm: '>=2.0.0'}
-
   rxjs@7.8.1:
     resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
 
@@ -2993,10 +2938,6 @@ packages:
 
   simple-git@3.27.0:
     resolution: {integrity: sha512-ivHoFS9Yi9GY49ogc6/YAi3Fl9ROnF4VyubNylgCkA+RVqLaKWnDSzXOVzya8csELIaWaYNutsEuAhZrtOjozA==}
-
-  slash@3.0.0:
-    resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}
-    engines: {node: '>=8'}
 
   slash@4.0.0:
     resolution: {integrity: sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==}
@@ -3123,10 +3064,6 @@ packages:
     resolution: {integrity: sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA==}
     engines: {node: '>=4'}
 
-  strip-final-newline@2.0.0:
-    resolution: {integrity: sha512-BrpvfNAE3dcvq7ll3xVumzjKjZQ5tI1sEUIKr3Uoks0XUl45St3FlatVqef9prk4jRDzhW6WZg+3bk93y6pLjA==}
-    engines: {node: '>=6'}
-
   strip-final-newline@3.0.0:
     resolution: {integrity: sha512-dOESqjYr96iWYylGObzd39EuNTa5VJxyvVAEm5Jnh7KGo75V43Hk1odPQkNDyXNmUR6k+gEiDVXnjB8HJ3crXw==}
     engines: {node: '>=12'}
@@ -3236,9 +3173,6 @@ packages:
 
   tsconfig-paths@3.15.0:
     resolution: {integrity: sha512-2Ac2RgzDe/cn48GvOe3M+o82pEFewD3UPbyoUHHdKasHwJKjds4fLXWf/Ux5kATBKN20oaFGu+jbElp1pos0mg==}
-
-  tslib@1.14.1:
-    resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
 
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
@@ -4180,18 +4114,11 @@ snapshots:
       '@types/ms': 0.7.34
     optional: true
 
-  '@types/diff@5.0.9': {}
-
   '@types/ejs@3.1.5': {}
 
   '@types/estree@1.0.6': {}
 
   '@types/expect@1.20.4': {}
-
-  '@types/inquirer@8.2.10':
-    dependencies:
-      '@types/through': 0.0.33
-      rxjs: 7.8.1
 
   '@types/inquirer@9.0.7':
     dependencies:
@@ -4207,20 +4134,6 @@ snapshots:
       '@types/lodash': 4.17.13
 
   '@types/lodash@4.17.13': {}
-
-  '@types/mem-fs-editor@7.0.7':
-    dependencies:
-      '@types/ejs': 3.1.5
-      '@types/json-schema': 7.0.15
-      '@types/mem-fs': 1.1.5
-      '@types/node': 20.11.20
-      '@types/vinyl': 2.0.11
-      globby: 11.1.0
-
-  '@types/mem-fs@1.1.5':
-    dependencies:
-      '@types/node': 20.14.8
-      '@types/vinyl': 2.0.11
 
   '@types/minimatch@3.0.5':
     optional: true
@@ -4246,10 +4159,6 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@20.14.8':
-    dependencies:
-      undici-types: 5.26.5
-
   '@types/node@22.10.2':
     dependencies:
       undici-types: 6.20.0
@@ -4268,15 +4177,8 @@ snapshots:
 
   '@types/normalize-package-data@2.4.4': {}
 
-  '@types/text-table@0.2.5': {}
-
   '@types/through@0.0.33':
     dependencies:
-      '@types/node': 20.11.20
-
-  '@types/vinyl@2.0.11':
-    dependencies:
-      '@types/expect': 1.20.4
       '@types/node': 20.11.20
 
   '@types/vinyl@2.0.12':
@@ -4288,25 +4190,6 @@ snapshots:
     dependencies:
       '@types/node': 20.11.20
 
-  '@types/yeoman-environment@2.10.11(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)':
-    dependencies:
-      '@types/diff': 5.0.9
-      '@types/inquirer': 8.2.10
-      '@types/mem-fs': 1.1.5
-      '@types/node': 20.11.20
-      '@types/text-table': 0.2.5
-      '@types/vinyl': 2.0.11
-      '@types/yeoman-generator': 6.0.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)
-      chalk: 4.1.2
-      commander: 9.5.0
-      execa: 5.1.1
-      rxjs: 6.6.7
-    transitivePeerDependencies:
-      - '@yeoman/types'
-      - encoding
-      - mem-fs
-      - supports-color
-
   '@types/yeoman-generator@6.0.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)':
     dependencies:
       yeoman-generator: 7.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)
@@ -4316,17 +4199,15 @@ snapshots:
       - mem-fs
       - supports-color
 
-  '@types/yeoman-test@4.0.6(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)':
+  '@types/yeoman-test@7.0.0(@yeoman/adapter@1.6.0)(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)(yeoman-environment@4.4.3(@types/node@22.13.0)(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))(yeoman-generator@7.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0))':
     dependencies:
-      '@types/mem-fs': 1.1.5
-      '@types/mem-fs-editor': 7.0.7
-      '@types/yeoman-environment': 2.10.11(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)
-      '@types/yeoman-generator': 6.0.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0)
+      yeoman-test: 10.0.1(@yeoman/adapter@1.6.0)(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)(yeoman-environment@4.4.3(@types/node@22.13.0)(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))(yeoman-generator@7.4.0(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(encoding@0.1.13)(mem-fs@3.0.0))
     transitivePeerDependencies:
+      - '@yeoman/adapter'
       - '@yeoman/types'
-      - encoding
       - mem-fs
-      - supports-color
+      - yeoman-environment
+      - yeoman-generator
 
   '@typescript-eslint/eslint-plugin@8.23.0(@typescript-eslint/parser@8.23.0(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.2))(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.2)':
     dependencies:
@@ -4582,8 +4463,6 @@ snapshots:
       get-intrinsic: 1.2.4
       is-string: 1.0.7
 
-  array-union@2.1.0: {}
-
   array-union@3.0.1: {}
 
   array.prototype.findlastindex@1.2.5:
@@ -4799,8 +4678,6 @@ snapshots:
   commander@11.1.0: {}
 
   commander@13.1.0: {}
-
-  commander@9.5.0: {}
 
   common-ancestor-path@1.0.1: {}
 
@@ -5264,18 +5141,6 @@ snapshots:
 
   events@3.3.0: {}
 
-  execa@5.1.1:
-    dependencies:
-      cross-spawn: 7.0.6
-      get-stream: 6.0.1
-      human-signals: 2.1.0
-      is-stream: 2.0.1
-      merge-stream: 2.0.0
-      npm-run-path: 4.0.1
-      onetime: 5.1.2
-      signal-exit: 3.0.7
-      strip-final-newline: 2.0.0
-
   execa@7.2.0:
     dependencies:
       cross-spawn: 7.0.6
@@ -5502,15 +5367,6 @@ snapshots:
       define-properties: 1.2.1
       gopd: 1.0.1
 
-  globby@11.1.0:
-    dependencies:
-      array-union: 2.1.0
-      dir-glob: 3.0.1
-      fast-glob: 3.3.2
-      ignore: 5.3.2
-      merge2: 1.4.1
-      slash: 3.0.0
-
   globby@13.2.2:
     dependencies:
       dir-glob: 3.0.1
@@ -5589,8 +5445,6 @@ snapshots:
       debug: 4.3.7
     transitivePeerDependencies:
       - supports-color
-
-  human-signals@2.1.0: {}
 
   human-signals@4.3.1: {}
 
@@ -5747,8 +5601,6 @@ snapshots:
   is-shared-array-buffer@1.0.3:
     dependencies:
       call-bind: 1.0.7
-
-  is-stream@2.0.1: {}
 
   is-stream@3.0.0: {}
 
@@ -6267,10 +6119,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  npm-run-path@4.0.1:
-    dependencies:
-      path-key: 3.1.1
-
   npm-run-path@5.3.0:
     dependencies:
       path-key: 4.0.0
@@ -6702,10 +6550,6 @@ snapshots:
     dependencies:
       queue-microtask: 1.2.3
 
-  rxjs@6.6.7:
-    dependencies:
-      tslib: 1.14.1
-
   rxjs@7.8.1:
     dependencies:
       tslib: 2.8.1
@@ -6788,8 +6632,6 @@ snapshots:
       debug: 4.4.0
     transitivePeerDependencies:
       - supports-color
-
-  slash@3.0.0: {}
 
   slash@4.0.0: {}
 
@@ -6926,8 +6768,6 @@ snapshots:
 
   strip-bom@3.0.0: {}
 
-  strip-final-newline@2.0.0: {}
-
   strip-final-newline@3.0.0: {}
 
   strip-indent@4.0.0:
@@ -7017,8 +6857,6 @@ snapshots:
       json5: 1.0.2
       minimist: 1.2.8
       strip-bom: 3.0.0
-
-  tslib@1.14.1: {}
 
   tslib@2.8.1: {}
 
