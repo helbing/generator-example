@@ -40,7 +40,7 @@
     "@commitlint/config-conventional": "^19.0.0",
     "@types/yeoman-assert": "^3.1.1",
     "@types/yeoman-generator": "^6.0.0",
-    "@types/yeoman-test": "^4.0.3",
+    "@types/yeoman-test": "^7.0.0",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
     "@typescript-eslint/parser": "^8.0.0",
     "cpy-cli": "^5.0.0",
