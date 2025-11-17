@@ -83,7 +83,7 @@ importers:
         version: 5.0.0(@types/node@24.10.1)(@yeoman/adapter@3.1.0(@types/node@24.10.1))(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)
       yeoman-test:
         specifier: ^11.0.0
-        version: 11.1.0(@yeoman/adapter@3.1.0(@types/node@24.10.1))(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)(yeoman-environment@5.0.0(@types/node@24.10.1)(@yeoman/adapter@3.1.0(@types/node@24.10.1))(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))(yeoman-generator@7.5.1(@types/node@24.10.1)(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))
+        version: 11.1.1(@yeoman/adapter@3.1.0(@types/node@24.10.1))(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)(yeoman-environment@5.0.0(@types/node@24.10.1)(@yeoman/adapter@3.1.0(@types/node@24.10.1))(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))(yeoman-generator@7.5.1(@types/node@24.10.1)(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))
 
 packages:
 
@@ -3597,8 +3597,8 @@ packages:
       '@types/node':
         optional: true
 
-  yeoman-test@11.1.0:
-    resolution: {integrity: sha512-9mSyRKI0KNzO0+4XnUSYw34nhPfgvC20TbZcJ53JLlSefthd01Xv54ygzhUlatiV6i50bU4HsqpLF+cw3oIPtg==}
+  yeoman-test@11.1.1:
+    resolution: {integrity: sha512-Ct9WfbeJ2ZUb2+vPl4nI6a44auUuBU/M5rpN5npN46uAITIgCZO1z3B+5RbyPVc+nUooR/3qokmpa/ILc7g9hA==}
     engines: {node: ^20.6.1 || >=22}
     peerDependencies:
       '@yeoman/adapter': ^1.6.0 || ^2.0.0 || ^3.0.0
@@ -4508,7 +4508,7 @@ snapshots:
 
   '@types/yeoman-test@7.0.0(@yeoman/adapter@3.1.0(@types/node@24.10.1))(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)(yeoman-environment@5.0.0(@types/node@24.10.1)(@yeoman/adapter@3.1.0(@types/node@24.10.1))(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))(yeoman-generator@7.5.1(@types/node@24.10.1)(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))':
     dependencies:
-      yeoman-test: 11.1.0(@yeoman/adapter@3.1.0(@types/node@24.10.1))(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)(yeoman-environment@5.0.0(@types/node@24.10.1)(@yeoman/adapter@3.1.0(@types/node@24.10.1))(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))(yeoman-generator@7.5.1(@types/node@24.10.1)(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))
+      yeoman-test: 11.1.1(@yeoman/adapter@3.1.0(@types/node@24.10.1))(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)(yeoman-environment@5.0.0(@types/node@24.10.1)(@yeoman/adapter@3.1.0(@types/node@24.10.1))(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))(yeoman-generator@7.5.1(@types/node@24.10.1)(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))
     transitivePeerDependencies:
       - '@yeoman/adapter'
       - '@yeoman/types'
@@ -7488,7 +7488,7 @@ snapshots:
       - react-native-b4a
       - supports-color
 
-  yeoman-test@11.1.0(@yeoman/adapter@3.1.0(@types/node@24.10.1))(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)(yeoman-environment@5.0.0(@types/node@24.10.1)(@yeoman/adapter@3.1.0(@types/node@24.10.1))(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))(yeoman-generator@7.5.1(@types/node@24.10.1)(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)):
+  yeoman-test@11.1.1(@yeoman/adapter@3.1.0(@types/node@24.10.1))(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)(yeoman-environment@5.0.0(@types/node@24.10.1)(@yeoman/adapter@3.1.0(@types/node@24.10.1))(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0))(yeoman-generator@7.5.1(@types/node@24.10.1)(@yeoman/types@1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0))(mem-fs@3.0.0)):
     dependencies:
       '@yeoman/types': 1.2.0(@types/inquirer@9.0.7)(mem-fs-editor@10.0.3)(mem-fs@3.0.0)
       lodash-es: 4.17.21
